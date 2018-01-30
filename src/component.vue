@@ -129,7 +129,7 @@
         // Make sure we have a flatpickr instance
         this.fp &&
         // Notify flatpickr instance that there is a change in value
-        this.fp.setDate(newValue, true);
+        this.fp.setDate(newValue, false);
       }
     },
     /**
